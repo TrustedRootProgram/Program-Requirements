@@ -36,7 +36,13 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 
 **2.1.12.** Program Participants agree that Microsoft may contact customers that Microsoft believes may be substantially impacted by the pending removal of a root CA from the Program. 
 
-**2.1.13.** If Microsoft, in its sole discretion, identifies a certificate whose usage or attributes are determined to be contrary to the objectives of the Trusted Root Program, Microsoft will notify the responsible CA and request that it revokes the certificate. The CA must either revoke the certificate or request an exception from Microsoft within 24 hours of receiving Microsoft's notice. Microsoft will review submitted material and inform the CA of its final decision to grant or deny the exception at its sole discretion. In the event that Microsoft doesn't grant the exception, the CA must revoke the certificate within 24 hours of the exception being denied. 
+**2.1.13.** If Microsoft, in its sole discretion, identifies a certificate whose usage or attributes are determined to be contrary to the objectives of the Trusted Root Program, Microsoft will notify the responsible CA and request that it revokes the certificate. The CA must revoke the certificate within 24 hours of receiving Microsoft's notice. 
+
+**2.1.14.**  CAs trusted by Microsoft products must comply with the most recent and applicable Baseline Requirements (BRs) for the type of certificate they issue, as defined by the CA/Browser Forum and other relevant industry bodies. This includes, but is not limited to: TLS Server Authentication Certificates – CA/Browser Forum Baseline Requirements for TLS, Code Signing Certificates – CA/Browser Forum Code Signing Baseline Requirements, S/MIME Certificates – CA/Browser Forum S/MIME Baseline Requirements. Where Microsoft policy imposes stricter requirements than the applicable BRs, CAs are expected to adhere to Microsoft’s requirements.
+
+**2.1.15.**  No single organization, including Microsoft, has the authority to grant exceptions to the Baseline Requirements. Microsoft will not grant exceptions under any circumstances.
+
+**2.1.16.**  TRP Participants MUST adhere to the latest version of the CCADB Policy.
 
 
 ## 3. Program Technical Requirements
@@ -110,8 +116,6 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 **Please Note:** 
 - Signatures using elliptical curve cryptography (ECC), such as ECDSA, aren't supported in Windows and newer Windows security features. Users utilizing these algorithms and certificates will face various errors and potential security risks. The Microsoft Trusted Root Program recommends that ECC/ECDSA certificates shouldn't be issued to subscribers due to this known incompatibility and risk.
 - Code Signing does not support ECC or keys > 4096
-
- 
 
 ### 3.2. Revocation Requirements
 
