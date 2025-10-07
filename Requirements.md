@@ -44,9 +44,9 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 
 **2.1.16.**  TRP Participants MUST adhere to the latest version of the CCADB Policy.
 
-**2.1.17.**  All publicly-trusted TLS certificates must be logged to a Certificate Transparency (CT) Log that complies with RFC 6962, "Certificate Transparency." Certificates issued must include at least two SCTs (Signed Certificate Timestamp) from distinct CT Logs that were Qualified, Usable, or ReadOnly at the time of check.  
+**2.1.17.**  All publicly-trusted final TLS certificates must be logged within 24 to a Certificate Transparency (CT) Log that complies with RFC 6962, "Certificate Transparency." Certificates issued must include at least two SCTs (Signed Certificate Timestamp) from distinct CT Logs that were Qualified, Usable, or ReadOnly at the time of check.  
 
-**2.1.18.** Certificate Authorities must update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents within 7 calendar days following any significant change in operations, relevant standards, or industry requirements. The updated documents must be made publicly available and communicated to Microsoft within the same timeframe. CAs may provide these updates by updating the CCADB. 
+**2.1.18.** Certificate Authorities must update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents within 7 calendar days following any significant change in operations, relevant standards, or industry requirements. The updated documents must be made publicly available and communicated to Microsoft within the same timeframe. CAs should provide these updates by updating the CCADB. CAs MUST update the changelog in their CP/CPS documents with what changes were made. 
 
 
 ## 3. Program Technical Requirements
