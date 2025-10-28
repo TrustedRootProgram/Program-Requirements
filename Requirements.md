@@ -46,7 +46,7 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 
 **2.1.17.**  All publicly-trusted subscriber TLS certificates must be logged within 24 hours to a Certificate Transparency (CT) Log that complies with RFC 6962, "Certificate Transparency." Certificates issued must include at least two SCTs (Signed Certificate Timestamp) from distinct CT Logs that were Qualified, Usable, or ReadOnly at the time of check.  
 
-**2.1.18.** Certificate Authorities must update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents within 7 calendar days following any change in operations, relevant standards, or industry requirements. The updated documents must be made publicly available and communicated to Microsoft within the same timeframe. CAs should provide these updates by updating the CCADB. CAs MUST update the changelog in their CP/CPS documents with what changes were made. 
+**2.1.18.** Certificate Authorities must update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents before applying any change in operations. The updated documents must be made publicly available and communicated to Microsoft. CAs should provide these updates by updating the CCADB. CAs MUST update the changelog in their CP/CPS documents with what changes were made. 
 
 
 
