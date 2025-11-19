@@ -36,7 +36,16 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 
 **2.1.12.** Program Participants agree that Microsoft may contact customers that Microsoft believes may be substantially impacted by the pending removal of a root CA from the Program. 
 
-**2.1.13.** If Microsoft, in its sole discretion, identifies a certificate whose usage or attributes are determined to be contrary to the objectives of the Trusted Root Program, Microsoft will notify the responsible CA and request that it revokes the certificate. The CA must either revoke the certificate or request an exception from Microsoft within 24 hours of receiving Microsoft's notice. Microsoft will review submitted material and inform the CA of its final decision to grant or deny the exception at its sole discretion. In the event that Microsoft doesn't grant the exception, the CA must revoke the certificate within 24 hours of the exception being denied. 
+**2.1.13.** If Microsoft, in its sole discretion, identifies a certificate whose usage or attributes are determined to be contrary to the objectives of the Trusted Root Program or the Baseline Requirements, Microsoft will notify the responsible CA and request that it revokes the certificate. The CA must revoke the certificate within 24 hours of receiving Microsoft's notice. 
+
+**2.1.14.**  CAs trusted by Microsoft products MUST comply with the most recent and applicable CA/B Forum Guidelines/Baseline Requirements (BRs) for the type of certificate they issue, as defined by the CA/Browser Forum and other relevant industry bodies. This includes, but is not limited to: TLS Server Authentication Certificates – CA/Browser Forum Baseline Requirements for TLS, Extended Validation TLS Server Authentication Certificates – EV TLS Server Certificate Guidelines, Code Signing Certificates – CA/Browser Forum Code Signing Baseline Requirements, S/MIME Certificates – CA/Browser Forum S/MIME Baseline Requirements. Where Microsoft policy imposes stricter requirements than the applicable CA/Browser Forum Guidelines/BRs, CAs are expected to adhere to Microsoft’s requirements.
+
+**2.1.15.**  No single organization, including Microsoft, has the authority to grant exceptions to the Baseline Requirements. Microsoft will not grant exceptions under any circumstances.
+
+**2.1.16.**  TRP Participants MUST adhere to the latest version of the CCADB Policy.
+
+**2.1.17.** Certificate Authorities MUST update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents before applying any change in operations. The updated documents must be made publicly available and communicated to Microsoft. CAs should provide these updates by updating the CCADB. CAs MUST update the changelog in their CP/CPS documents with what changes were made. 
+
 
 
 ## 3. Program Technical Requirements
