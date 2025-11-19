@@ -38,15 +38,13 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 
 **2.1.13.** If Microsoft, in its sole discretion, identifies a certificate whose usage or attributes are determined to be contrary to the objectives of the Trusted Root Program or the Baseline Requirements, Microsoft will notify the responsible CA and request that it revokes the certificate. The CA must revoke the certificate within 24 hours of receiving Microsoft's notice. 
 
-**2.1.14.**  CAs trusted by Microsoft products must comply with the most recent and applicable Baseline Requirements (BRs) for the type of certificate they issue, as defined by the CA/Browser Forum and other relevant industry bodies. This includes, but is not limited to: TLS Server Authentication Certificates – CA/Browser Forum Baseline Requirements for TLS, Code Signing Certificates – CA/Browser Forum Code Signing Baseline Requirements, S/MIME Certificates – CA/Browser Forum S/MIME Baseline Requirements. Where Microsoft policy imposes stricter requirements than the applicable BRs, CAs are expected to adhere to Microsoft’s requirements.
+**2.1.14.**  CAs trusted by Microsoft products MUST comply with the most recent and applicable Baseline Requirements (BRs) for the type of certificate they issue, as defined by the CA/Browser Forum and other relevant industry bodies. This includes, but is not limited to: TLS Server Authentication Certificates – CA/Browser Forum Baseline Requirements for TLS, Code Signing Certificates – CA/Browser Forum Code Signing Baseline Requirements, S/MIME Certificates – CA/Browser Forum S/MIME Baseline Requirements. Where Microsoft policy imposes stricter requirements than the applicable BRs, CAs are expected to adhere to Microsoft’s requirements.
 
 **2.1.15.**  No single organization, including Microsoft, has the authority to grant exceptions to the Baseline Requirements. Microsoft will not grant exceptions under any circumstances.
 
 **2.1.16.**  TRP Participants MUST adhere to the latest version of the CCADB Policy.
 
-**2.1.17.**  All publicly-trusted subscriber TLS certificates must be logged within 24 hours to a Certificate Transparency (CT) Log that complies with RFC 6962, "Certificate Transparency." Certificates issued must include at least two SCTs (Signed Certificate Timestamp) from distinct CT Logs that were Qualified, Usable, or ReadOnly at the time of check.  
-
-**2.1.18.** Certificate Authorities must update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents before applying any change in operations. The updated documents must be made publicly available and communicated to Microsoft. CAs should provide these updates by updating the CCADB. CAs MUST update the changelog in their CP/CPS documents with what changes were made. 
+**2.1.17.** Certificate Authorities MUST update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents before applying any change in operations. The updated documents must be made publicly available and communicated to Microsoft. CAs should provide these updates by updating the CCADB. CAs MUST update the changelog in their CP/CPS documents with what changes were made. 
 
 
 
