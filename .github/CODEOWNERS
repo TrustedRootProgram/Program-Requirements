@@ -1,0 +1,11 @@
+# CODEOWNERS: assign Program-team reviewer for policy and audit documents
+# This will request review from @kasirota on PRs that modify the listed files.
+
+# Program policy and requirements
+/Requirements.md @kasirota
+
+# Audit-related templates and guidance
+/.github/ISSUE_TEMPLATE/audit-submission.md @kasirota
+/.github/pull_request_template.md @kasirota
+/.github/copilot-instructions.md @kasirota
+/.github/examples/* @kasirota
