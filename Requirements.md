@@ -222,6 +222,8 @@ To submit annual audits, refer to the CCADB instructions on how to create an aud
 
 If the CA is applying into the Root Store and isn't in the CCADB, they should email their audit attestation to msroot\@microsoft.com.
 
+Note: For changes that affect Server Authentication EKU or other audit-sensitive clauses, include exact attestation wording in the PR (see `.github/ISSUE_TEMPLATE/audit-submission.md`), describe required CCADB actions, and link the related Audit submission issue in the PR body. Program-team sign-off (msroot@microsoft.com) is required for audit-affecting changes.
+
 ## 4.2 Acceptable Audit Standards
 
 The Program accepts two types of audit standards: WebTrust and ETSI. For each of the EKUs on the left, Microsoft requires an audit that conforms to the standard marked.
