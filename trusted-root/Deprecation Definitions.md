@@ -1,13 +1,3 @@
----
-title: Deprecation Actions  - Microsoft Trusted Root Certificate Program
-description: Get to know the changes made monthly to the root store.
-ms.date: 02/14/2024
-ms.service: security
-author: kasirota
-ms.author: kasirota
-ms.topic: conceptual
----
-
 # Deprecation Definitions - Microsoft Trusted Root Certificate Program
 
 Windows has many options for deprecating root certificate capbilities. These capabilities are listed here. 
