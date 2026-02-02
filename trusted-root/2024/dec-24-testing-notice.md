@@ -1,13 +1,3 @@
----
-title: December 2024 Test Environment Deployment Notice - Microsoft Trusted Root Program  
-description: This document provides details about the changes made to the test staging platform in December 2024.
-ms.date: 12/16/2024
-ms.service: security
-author: tahminaahmad
-ms.author: tahminaahmad
-ms.topic: conceptual
----
-
 #  December 2024 Test Environment Deployment Notice - Microsoft Trusted Root Program 
 On December 9, 2024, the Microsoft Trusted Root Program updated the test staging platform with root certificates that are planned for a future release. Currently, the new certificates have a Distrust date of November 11, 2024. Once these certificates are tested and incorporated to a future release, the November 11, 2024, date will change to match the date when the new certificates are released. This will  be no earlier than February 25, 2025.
 
