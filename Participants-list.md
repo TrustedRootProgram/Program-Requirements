@@ -1,13 +1,3 @@
----
-title: List of Participants - Microsoft Trusted Root Program 
-description: This document provides details about the participating Certificate Authorities in the Microsoft Trusted Root Program. 
-ms.date: 02/01/2014
-ms.service: security
-author: kasirota
-ms.author: kasirota
-ms.topic: conceptual
----
-
 # List of Participants - Microsoft Trusted Root Program 
 
 ## Current List
