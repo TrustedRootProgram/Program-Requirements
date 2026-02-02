@@ -1,14 +1,3 @@
----
-title: New CA application - Microsoft Trusted Root Program 
-description: Describes the application process to become a new certificate authority in the Microsoft Trusted Root Program.
-ms.date: 02/15/2024
-ms.service: security
-ms.author: kasirota
-author: kasirota
-ms.topic: conceptual
-
----
-
 # New CA application - Microsoft Trusted Root Program
 
 **At this time, the Microsoft Trusted Root Program is not accepting new CAs into the program. Please check back at a later time for updates on new CA applications and acceptances.**
