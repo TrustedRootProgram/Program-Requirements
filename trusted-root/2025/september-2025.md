@@ -3,7 +3,7 @@ title: September 2025 Deployment Notice - Microsoft Trusted Root Program
 description: This document provides details about the changes made in September 2025 to the root store.
 ms.date: 9/5/2025
 ms.service: security
-author: kasirota
+author: tahminaahmad
 ms.author: kasirota
 ms.topic: conceptual
 ---
