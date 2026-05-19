@@ -169,7 +169,7 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
      -   This EKU is used for signing documents within Office. It isn't required for other document signing uses.
  
 **3.4.3** Effective for all root certificates submitted on or after July 1, 2026:
-Effective for all root certificates submitted on or after July 1, 2026, root certificates MUST be limited in scope and dedicated to a clearly defined trust purpose.
+Effective for all root certificates submitted on or after July 1, 2026, root certificates MUST be limited in scope and dedicated to clearly defined trust purposes.
 Root certificates authorized for Server Authentication, S/MIME, or Code Signing MUST each be separate and independent trust anchors. A root certificate MUST NOT be authorized for more than one of these EKUs.
 A root certificate authorized for Code Signing MAY also be authorized for Client Authentication and Time Stamping. A root certificate authorized for Server Authentication OR SMIME MAY also be authorized for Client Authentication.
 No EKU combinations other than those explicitly permitted above are allowed.Root certificates submitted prior to January 1, 2027 that assert multiple EKUs will continue to be trusted unless otherwise directed by Microsoft.
