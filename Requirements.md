@@ -14,6 +14,7 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 |--------|-----|-----------|
 | 1.0 | October 13, 2025 | First update on TRP Github. No changes to current program requirements, but this version supercedes current requirements on learn.microsoft.com. |
 | 1.1 | November 21, 2025 | Updates to program requirements include changes to require compliance with CA/B Forum Guidelines and CCADB Guidelines, clarification on Microsoft issuing exceptions to the BRs and required prior notice on CP/CPS changes  |
+| 1.2 | May 20, 2026| Enhanced root program requirements with stricter EKU controls, updated root lifetimes, new suspect code definition, and mandatory CA incident reporting.  |
 
 
 ## 2. Program Participation Requirements
