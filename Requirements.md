@@ -14,6 +14,7 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 |--------|-----|-----------|
 | 1.0 | October 13, 2025 | First update on TRP Github. No changes to current program requirements, but this version supercedes current requirements on learn.microsoft.com. |
 | 1.1 | November 21, 2025 | Updates to program requirements include changes to require compliance with CA/B Forum Guidelines and CCADB Guidelines, clarification on Microsoft issuing exceptions to the BRs and required prior notice on CP/CPS changes  |
+| 1.2 | May 20, 2026| Enhanced root program requirements with stricter EKU controls, updated root lifetimes, new suspect code definition, and mandatory CA incident reporting.  |
 
 
 ## 2. Program Participation Requirements
@@ -52,6 +53,8 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 
 **2.1.17.** Certificate Authorities MUST update their Certificate Policy (CP) and Certification Practice Statement (CPS) documents before applying any change in operations. The updated documents must be made publicly available and communicated to Microsoft. CAs should provide these updates by updating the CCADB. CAs MUST update the changelog in their CP/CPS documents with what changes were made. 
 
+**2.1.18** Certificate Authorities MUST publicly disclose and/or respond to incident reports in Bugzilla, including incidents that the Program Participant believes to be low‑impact, procedural, or non‑security‑relevant. Incident reports MUST be submitted in accordance with the current CCADB Incident Report format and applicable disclosure timelines, which can be found here: <https://www.ccadb.org/cas/incident-report>. If a Program Participant has not yet publicly disclosed an incident in Bugzilla, the Participant MUST promptly notify msroot [at] microsoft.com and MUST provide an initial public disclosure timeline.
+
 
 
 ## 3. Program Technical Requirements
@@ -71,7 +74,7 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 
 **3.1.7.** Root Key Sizes must meet the requirements detailed in "Signature Requirements" below.
 
-**3.1.8.** Newly minted Root CAs must be valid for a minimum of eight years, and a maximum of 25 years, from the date of submission.
+**3.1.8.** Newly minted Root CAs must be valid for a maximum 10 years, from the date of submission, effective July 1, 2026.
 
 **3.1.9.** Participating Root CAs may not issue new 1024-bit RSA certificates from roots covered by these requirements.
 
@@ -148,7 +151,11 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
 ### 3.3. Code Signing Root Certificate Requirements
 
 **3.3.1.** Root certificates that support code signing use may be removed from distribution by the Program 10 years from the date of distribution of a replacement rollover root certificate or sooner, if requested by the CA. 
+
 **3.3.2.** Root certificates that remain in distribution to support only code signing use beyond their algorithm security lifetime (e.g. RSA 1024  = 2014, RSA 2048 = 2030) may be set to 'disable' in a future release.
+
+**3.3.3** For clarity and transparency, Microsoft and the Microsoft Trusted Root Program classify “suspect code” using the same criteria applied across Microsoft security products. These classifications are documented in Microsoft’s Unified Security Operations criteria, which describe how Microsoft identifies and categorizes malware, potentially unwanted applications, tampering software, and related behaviors: <https://learn.microsoft.com/en-us/unified-secops/criteria>. These definitions are provided to assist Program Participants in understanding how Microsoft may assess code behavior during incident investigation, disclosure, and enforcement activities.
+
 
 ### 3.4. EKU Requirements
 
@@ -161,7 +168,13 @@ The Microsoft Trusted Root Program enables customers to trust Windows products b
     4.  Time stamping EKU=1.3.6.1.5.5.7.3.8
     5.  Document Signing EKU=1.3.6.1.4.1.311.10.3.12
      -   This EKU is used for signing documents within Office. It isn't required for other document signing uses.
+    6. Code Signing EKU= 1.3.6.1.5.5.7.3.3
  
+**3.4.3** Effective for all root certificates submitted on or after July 1, 2026:
+Effective for all root certificates submitted on or after July 1, 2026, root certificates MUST be limited in scope and dedicated to clearly defined trust purposes. These purposes are listed in 3.4.2 above. 
+Root certificates authorized for Server Authentication, S/MIME, or Code Signing MUST each be separate and independent trust anchors. A root certificate MUST NOT be authorized for more than one of these EKUs.
+A root certificate authorized for Code Signing MAY also be authorized for Client Authentication and Time Stamping. A root certificate authorized for Server Authentication OR SMIME MAY also be authorized for Client Authentication.
+No EKU combinations other than those explicitly permitted above are allowed.Root certificates submitted prior to January 1, 2027 that assert multiple EKUs will continue to be trusted unless otherwise directed by Microsoft.
 
 # 4. Audit requirements
 
