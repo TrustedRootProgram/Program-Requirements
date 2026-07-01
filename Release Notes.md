@@ -17,92 +17,92 @@ A list of Root Store participants, updated monthly, can be found here: <https://
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
 |April |April 28 |[Deployment Notice for April 2026](trusted-root/2026/april-2026.md)|
-|June |June 30  |[Deployment Notice for June 2026](2026/june-2026.md)|
+|June |June 30  |[Deployment Notice for June 2026](trusted-root/2026/june-2026.md)|
 
 
 ## 2025
 
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
-| February | February 25 | [Deployment Notice for February 2025](2025/february-2025.md) |
-| May | May 28 | [Deployment Notice for May 2025](2025/may-2025.md) |
-| June | June 26 | [Deployment Notice for June 2025](2025/june-2025.md) |
-| August | August 28 | [Deployment Notice for August 2025](2025/august-2025.md) |
-| September | September 4 | [Deployment Notice for September 2025](2025/september-2025.md) |
+| February | February 25 | [Deployment Notice for February 2025](trusted-root/2025/february-2025.md) |
+| May | May 28 | [Deployment Notice for May 2025](trusted-root/2025/may-2025.md) |
+| June | June 26 | [Deployment Notice for June 2025](trusted-root/2025/june-2025.md) |
+| August | August 28 | [Deployment Notice for August 2025](trusted-root/2025/august-2025.md) |
+| September | September 4 | [Deployment Notice for September 2025](trusted-root/2025/september-2025.md) |
 
 ## 2024
 
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
-| December | December 24 | [Testing Notice for December 2024](dec-24-testing-notice.md) |
-| December | December 4 | [Deployment Notice for December 2024](2024/december-2024.md) |
-| May | May 28 | [Deployment Notice for May 2024](2024/may-2024.md) |
-| March | March 26 | [Deployment Notice for March 2024](2024/March2024.md) |
-| February | February 27 | [Deployment Notice for February 2024](2024/Feb2024.md) |
+| December | December 24 | [Testing Notice for December 2024](trusted-root/dec-24-testing-notice.md) |
+| December | December 4 | [Deployment Notice for December 2024](trusted-root/2024/december-2024.md) |
+| May | May 28 | [Deployment Notice for May 2024](trusted-root/2024/may-2024.md) |
+| March | March 26 | [Deployment Notice for March 2024](trusted-root/2024/March2024.md) |
+| February | February 27 | [Deployment Notice for February 2024](trusted-root/2024/Feb2024.md) |
 
 ## 2023
 
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
-| November | November 28 | [Deployment Notice for November 2023](2023/Nov2023.md) |
-| March | March 28 | [Deployment Notice for March 2023](2023/March2023.md) |
-| February | February 28 | [Deployment Notice for February 2023](2023/Feb2023.md) |
+| November | November 28 | [Deployment Notice for November 2023](trusted-root/2023/Nov2023.md) |
+| March | March 28 | [Deployment Notice for March 2023](trusted-root/2023/March2023.md) |
+| February | February 28 | [Deployment Notice for February 2023](trusted-root/2023/Feb2023.md) |
 
 ## 2022
 
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
-| November | November 29 | [Deployment Notice for November 2022](2022/November2022.md) |
-| October | October 25 | [Deployment Notice for October 2022](2022/October2022.md) |
-| September | September 27 | [Deployment Notice for September 2022](2022/September2022.md) |
-| August | August 23 | [Deployment Notice for August 2022](2022/August2022.md) |
-| June | June 28 | [Deployment Notice for June 2022](2022/June2022.md) |
-| May | May 17 | [Deployment Notice for May 2022](2022/May2022.md) |
-| April | April 26 | [Deployment Notice for April 2022](2022/April2022.md) |
-| February | February 22 | [Deployment Notice for February 2022](2022/February2022.md) |
+| November | November 29 | [Deployment Notice for November 2022](trusted-root/2022/November2022.md) |
+| October | October 25 | [Deployment Notice for October 2022](trusted-root/2022/October2022.md) |
+| September | September 27 | [Deployment Notice for September 2022](trusted-root/2022/September2022.md) |
+| August | August 23 | [Deployment Notice for August 2022](trusted-root/2022/August2022.md) |
+| June | June 28 | [Deployment Notice for June 2022](trusted-root/2022/June2022.md) |
+| May | May 17 | [Deployment Notice for May 2022](trusted-root/2022/May2022.md) |
+| April | April 26 | [Deployment Notice for April 2022](trusted-root/2022/April2022.md) |
+| February | February 22 | [Deployment Notice for February 2022](trusted-root/2022/February2022.md) |
 
 ## 2021
 
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
-| October | October 26 | [Deployment Notice for October 2021](2021/October2021.md) |
+| October | October 26 | [Deployment Notice for October 2021](trusted-root/2021/October2021.md) |
 | September | September 28 | [Deployment Notice for September 2021](2021/September2021.md) |
-| August | August 24 | [Deployment Notice for August 2021](2021/August2021.md) |
-| June | June 22 | [Deployment Notice for June 2021](2021/June2021.md) |
-| May | May 25 | [Deployment Notice for May 2021](2021/May2021.md) |
-| April | April 29 | [Deployment Notice for April 2021](2021/April2021.md) |
-| February | March 3 | [Deployment Notice for February 2021](2021/Feb2021.md) |
-| January | January 26 | [Deployment Notice for January 2021](2021/January2021.md) |
+| August | August 24 | [Deployment Notice for August 2021](trusted-root/2021/August2021.md) |
+| June | June 22 | [Deployment Notice for June 2021](trusted-root/2021/June2021.md) |
+| May | May 25 | [Deployment Notice for May 2021](trusted-root/2021/May2021.md) |
+| April | April 29 | [Deployment Notice for April 2021](trusted-root/2021/April2021.md) |
+| February | March 3 | [Deployment Notice for February 2021](trusted-root/2021/Feb2021.md) |
+| January | January 26 | [Deployment Notice for January 2021](trusted-root/2021/January2021.md) |
 
 ## 2020
 
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
-| October | October 27 | [Deployment Notice Posted October 27](2020/October2020.md) |
-| September | September 29 | [Deployment Notice Posted September 29](2020/September2020.md) |
-| September | September 3 | [Deployment Notice Posted September 3](2020/September2020-2.md) | 
-| August | August 25  | [Deployment Notice Posted August 18](2020/august2020.md) |
-| July | July 28  | [Deployment Notice Posted July 27](2020/july2020.md) |
-| June | June 30  | [Deployment Notice Posted June 9](2020/June2020.md) |
-| May | May 19  | [Deployment Notice Posted May 19](2020/May2020.md) |
-| April | April 28  | [Deployment Notice Posted April 21](2020/April2020-2.md) |
-| April |   | [Notice Posted April 1](2020/April2020.md) |
-| March | March 24  | [Deployment Notice Posted March 18](2020/March2020.md) |
-| February | February 25  | [Deployment Notice Posted February 3](2020/Feb2020.md) |
-| January | January 28  | [Deployment Notice Posted January 22](2020/Jan2020.md) |
+| October | October 27 | [Deployment Notice Posted October 27](trusted-root/2020/October2020.md) |
+| September | September 29 | [Deployment Notice Posted September 29](trusted-root/2020/September2020.md) |
+| September | September 3 | [Deployment Notice Posted September 3](trusted-root/2020/September2020-2.md) | 
+| August | August 25  | [Deployment Notice Posted August 18](trusted-root/2020/august2020.md) |
+| July | July 28  | [Deployment Notice Posted July 27](trusted-root/2020/july2020.md) |
+| June | June 30  | [Deployment Notice Posted June 9](trusted-root/2020/June2020.md) |
+| May | May 19  | [Deployment Notice Posted May 19](trusted-root/2020/May2020.md) |
+| April | April 28  | [Deployment Notice Posted April 21](trusted-root/2020/April2020-2.md) |
+| April |   | [Notice Posted April 1](trusted-root/2020/April2020.md) |
+| March | March 24  | [Deployment Notice Posted March 18](trusted-root/2020/March2020.md) |
+| February | February 25  | [Deployment Notice Posted February 3](trusted-root/2020/Feb2020.md) |
+| January | January 28  | [Deployment Notice Posted January 22](trusted-root/2020/Jan2020.md) |
 
 ## 2019 
 
 | Month |	Date of Release	| Release Notes |
 |---|---|---|
-| October | November 5  | [Deployment Notice Posted October 11](2019/oct2019.md) |
-| August | August 14 | [Deployment Notice Posted August 14](2019/august2019-2.md) |
-| August | August 27 | [Deployment Notice Posted August 2](2019/august2019.md) |
-| July | July 10 | [Deployment Notice Posted July 11](2019/july2019-2.md) |
-| July | July 30 | [Deployment Notice Posted July 2](2019/July2019.md) |
-| June | July 2 | [Deployment Notice Posted June 5](2019/june2019.md) |
-| May | May 28 | [Deployment Notice Posted May 1](2019/May2019.md) |
-| April | April 30 | [Deployment Notice Posted April 15](2019/April2019.md) |
-| March | March 26 | [Deployment Notice Posted March 6](2019/Mar2019.md) |
-| February | March 5 | [Deployment Notice Posted February 19](2019/Feb2019.md) |
-| January | January 29 | [Deployment Notice Posted January 23](2019/Jan2019.md) |
+| October | November 5  | [Deployment Notice Posted October 11](trusted-root/2019/oct2019.md) |
+| August | August 14 | [Deployment Notice Posted August 14](trusted-root/2019/august2019-2.md) |
+| August | August 27 | [Deployment Notice Posted August 2](trusted-root/2019/august2019.md) |
+| July | July 10 | [Deployment Notice Posted July 11](trusted-root/2019/july2019-2.md) |
+| July | July 30 | [Deployment Notice Posted July 2](trusted-root/2019/July2019.md) |
+| June | July 2 | [Deployment Notice Posted June 5](trusted-root/2019/june2019.md) |
+| May | May 28 | [Deployment Notice Posted May 1](trusted-root/2019/May2019.md) |
+| April | April 30 | [Deployment Notice Posted April 15](trusted-root/2019/April2019.md) |
+| March | March 26 | [Deployment Notice Posted March 6](trusted-root/2019/Mar2019.md) |
+| February | March 5 | [Deployment Notice Posted February 19](trusted-root/trusted-root/2019/Feb2019.md) |
+| January | January 29 | [Deployment Notice Posted January 23](trusted-root/2019/Jan2019.md) |
