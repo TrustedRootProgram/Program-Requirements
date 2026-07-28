@@ -17,8 +17,11 @@ To achieve this, the user will need to make the following modifications to a PC 
 
 ## Testing Configuration
 1. Within the Windows registry, change [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\systemCertificates\AuthRoot\AutoUpdate] "RootDirUrl" to http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/test
+2. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate\SyncFromDirUrl]
+=http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/test
 
-2. Delete the following registry keys
+
+3. Delete the following registry keys
  * [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate\EncodedCtl]
  * [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate\LastSyncTime]
  * [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\Certificates] (deleting all cached certificates)
@@ -28,8 +31,11 @@ To achieve this, the user will need to make the following modifications to a PC 
  
 ## Reset to Normal Configuration
 1. Within the Windows registry, change [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\systemCertificates\AuthRoot\AutoUpdate] "RootDirUrl"  to http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en (note it is the same without the test at the end)
+2. [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate\SyncFromDirUrl]
+=http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en
 
-2. Delete the following registry keys
+
+3. Delete the following registry keys
  * [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate\EncodedCtl]
  * [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate\LastSyncTime]
  * [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\Certificates] (deleting all cached certificates)
