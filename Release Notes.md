@@ -18,7 +18,7 @@ A list of Root Store participants, updated monthly, can be found here: <https://
 |---|---|---|
 |April |April 28 |[Deployment Notice for April 2026](trusted-root/2026/april-2026.md)|
 |June |June 30  |[Deployment Notice for June 2026](trusted-root/2026/june-2026.md)|
-|August |August 25 | [Deployment Notice for June 2026](trusted-root/2026/august-2026.md)|
+|August |August 25 | [Deployment Notice for August 2026](trusted-root/2026/august-2026.md)|
 
 
 ## 2025
