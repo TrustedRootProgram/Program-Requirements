@@ -12,6 +12,8 @@ ms.topic: conceptual
 
 On Tuesday, August 25, 2026, Microsoft released an update to the Microsoft Trusted Root Certificate Program. The NotBefore date is set to September 15, 2026. This means only certificates issued after this date will be distrusted.
 
+Please note that this release includes PQC Pilot roots; more information can be found under the announcements section: https://github.com/TrustedRootProgram/Program-Requirements/blob/main/Announcements.md
+
 This release will add the following roots (CA \ Root Certificate \ SHA-256 Thumbprint):
 
 - ComSign \ ComSign Dev Root PQ CA \ 01AD5BE684509B24E9AAA5F20B67CA9534C7BD6E442F21DC68FAF91A201719D3
