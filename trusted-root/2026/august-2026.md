@@ -1,7 +1,7 @@
 ---
 title: August 2026 Deployment Notice - Microsoft Trusted Root Program
 description: This document provides details about the changes made in August 2026 to the root store.
-ms.date: 8/25/2026
+ms.date: 8/27/2026
 ms.service: security
 author: tahmad2
 ms.author: tahminaahmad
@@ -10,7 +10,7 @@ ms.topic: conceptual
 
 # August 2026 Microsoft Trusted Root Program deployment notice
 
-On Tuesday, August 25, 2026, Microsoft released an update to the Microsoft Trusted Root Certificate Program. The NotBefore date is set to September 15, 2026. This means only certificates issued after this date will be distrusted.
+On Tuesday, August 27, 2026, Microsoft released an update to the Microsoft Trusted Root Certificate Program. The NotBefore date is set to September 15, 2026. This means only certificates issued after this date will be distrusted.
 
 Please note that this release includes PQC Pilot roots; more information can be found under the announcements section: https://github.com/TrustedRootProgram/Program-Requirements/blob/main/Announcements.md
 
