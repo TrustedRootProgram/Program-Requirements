@@ -2,9 +2,9 @@
 
 Check here for official Trusted Root Program announcements and communications.
 
-# August 25, 2026
+# August 27, 2026
 ## Microsoft Launches Post-Quantum Cryptography TLS Pilot Roots
-On August 25, 2026, Microsoft plans to launch seven post-quantum cryptography (PQC) pilot roots through the Microsoft Trusted Root Program.
+On August 27, 2026, Microsoft plans to launch seven post-quantum cryptography (PQC) pilot roots through the Microsoft Trusted Root Program.
 
 The pilot will enable approved certificate authorities to test PQC-enabled TLS certificate hierarchies using ML-DSA-87. Testing will focus on interoperability, compatibility, and ecosystem readiness for server authentication.
 
