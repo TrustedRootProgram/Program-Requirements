@@ -23,3 +23,12 @@ This release will add the following PQC roots (CA \ Root Certificate \ SHA-256 T
 
 ## Important Scope
 These roots are intended only for controlled testing. They are not publicly trusted, must not be used for production or public-facing websites, and will not be added to CCADB or Certificate Transparency logs. This experimental pilot will help Microsoft and participating certificate authorities identify technical and operational barriers to PQC adoption. It is an important step toward improving cryptographic agility and preparing the certificate ecosystem for a post-quantum future.
+
+## PQC Pilot Root Compatibility on Windows OS
+Following the introduction of PQC pilot root certificates into the Microsoft Certificate Trust List (CTL) released on August 27, 2026, customers may experience ***certutil -verifyCTL*** failures on operating systems that do not support ML-DSA algorithms. This can result in errors such as NTE_BAD_ALGID (Bad Algorithm ID) when importing PQC pilot roots.
+
+PQC pilot TLS certificate authentication using ML-DSA signature suites is currently supported only on Windows 11 systems with the July 28, 2026 updates: KB5101681 (OS Build 28000.2608) for version 26H1 and KB5101684 (OS Builds 26200.8973 and 26100.8973) for version 25H2. Support for Windows Server 2025 is planned for a future release.
+
+Customers should ensure that the underlying operating system supports the PQC release before validating or processing CTLs that contain PQC pilot root certificates. Use of ***certutil -verifyCTL*** on unsupported or down-level operating system versions may result in failures when importing or validating PQC roots.
+
+PQC pilot certificate functionality is supported only on the Windows versions listed above.
