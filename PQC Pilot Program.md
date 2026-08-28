@@ -4,6 +4,8 @@
 
 Microsoft’s Trusted Root Program (TRP) is establishing a Post-Quantum Cryptography (PQC) TLS Pilot Program to support testing and evaluation of PQC-enabled certificate hierarchies within the Microsoft Root Program. This pilot is strictly scoped to closed testing environments, custom applications, and enterprise testbeds. Its purpose is to evaluate the impact of PQC in those environments, not to establish a standard for publicly-accessible web connections.
 
+Please email msroot@microsoft.com if you meet the following requirements and are interested in participating.
+
 > [!IMPORTANT]
 > Certificates issued under this pilot program:
 >
