@@ -1,4 +1,4 @@
-# Release notes - Microsoft Trusted Root Certificate Program
+# Legacy Release notes - Microsoft Trusted Root Certificate Program
 
 The Microsoft Trusted Root Certificate Program releases changes to our Root Store on a monthly cadence, except for December. The public can expect the following cadence for releases: 
 1.	Additions and non-deprecating modifications will be completed any month
