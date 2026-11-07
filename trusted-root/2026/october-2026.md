@@ -10,11 +10,11 @@ ms.topic: conceptual
 
 # October 2026 Microsoft Trusted Root Program deployment notice
 
-On October 20, 2026, Microsoft released an update to the Microsoft Trusted Root Certificate Program, due to the compromise of private keys associated with eight eMudhra G3B/G3C subordinate Certificate Authorities (CAs), consisting of six TLS CAs and two Code Signing CAs. This is a third-party incident with eMudhra and not a compromise of Microsoft systems.
+On October 20, 2026, Microsoft released an update to the Microsoft Trusted Root Certificate Program, due to the compromise of private keys associated with eMudhra G3B/G3C subordinate Certificate Authorities (CAs). This is a third-party incident with eMudhra and not a compromise of Microsoft systems.
 
-The affected keys were also used by cross-signed certificates, creating additional certificate paths using the same compromised key material.
+eMudhra has revoked the affected CA certificates. Certificates cross-signed using the compromised key material have also been revoked. Microsoft's Windows and Microsoft Edge mitigations provide additional protection independent of CA-issued revocation by explicitly blocking the compromised key material.
 
-Microsoft has taken the following CTL related actions to protect customers; please see the announcements tab for further mitigations and updates.
+Microsoft also made a separate decision to remove certificates associated with the affected hierarchies from its default trust lists. Microsoft released an out-of-band Windows update removing seven certificates associated with the affected hierarchies—six eMudhra G3 roots and one AAA Certificate Services cross-sign—from the Windows trust list.
 
 This release will Remove the following roots (CA \ Root Certificate \ SHA-256 Thumbprint):
 
