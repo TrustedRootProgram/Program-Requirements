@@ -2,7 +2,7 @@
 
 Check here for official Trusted Root Program announcements and communications.
 
-# November 16, 2026
+# November 10, 2026
 # Microsoft Removes Remaining eMudhra Root Certificates from Trusted Root Program
 
 Microsoft is removing the remaining ten eMudhra root certificates from the Windows and Microsoft Edge trusted root lists, effective November 16, 2026.
