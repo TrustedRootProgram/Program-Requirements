@@ -2,6 +2,44 @@
 
 Check here for official Trusted Root Program announcements and communications.
 
+# November 16, 2026
+# Microsoft Removes Remaining eMudhra Root Certificates from Trusted Root Program
+
+Microsoft is removing the remaining ten eMudhra root certificates from the Windows and Microsoft Edge trusted root lists, effective November 16, 2026.
+
+Once these updates reach a device, the affected root certificates will no longer be trusted by default through the respective Microsoft trust lists.
+Certificates that depend on these roots for trust may no longer validate unless an alternative trusted certification path exists.
+
+Organizations that rely on certificates issued under these hierarchies should assess potential impacts and transition to certificates chaining to trusted Certificate Authorities.
+
+Organizations with specific compatibility requirements may choose to establish local trust, subject to their own security assessments and organizational policies. Microsoft recommends carefully evaluating the associated risks before doing so. For more information on how to do this, please see: [Manager Certificate Stores in Windows Server] (https://learn.microsoft.com/en-us/windows-server/identity/ad-cs/inspect-certificates-manage-certificate-stores). 
+
+For information about Microsoft's earlier response to the eMudhra certificate compromise, see the October 26, 2026 announcement below.
+
+## Microsoft Mitigations
+
+| Date | Platform | Action |
+| --- | --- | --- |
+| November 16, 2026 | Windows | Removal of the remaining ten eMudhra root certificates from the Windows trusted root list. |
+| November 16, 2026 | Microsoft Edge / WebView2 | Removal of the remaining ten eMudhra root certificates from the Microsoft Edge trusted root list. |
+
+## Certificates removed from the Windows and Microsoft Edge trust lists
+
+| Certificate | SHA-256 Thumbprint |
+| --- | --- |
+| emSign ECC Root CA - C3 | B6AF43C29B81537DF6EF6BC31F1F60150CEE4866 |
+| emSign Root CA - C1 | E72EF1DFFCB20928CF5DD4D56737B151CB864F01 |
+| emSign Root CA - C2 | BCA2188074C3147E16F4C48C5910A89EF752F479 |
+| emSign Root CA - G1 | 8AC7AD8F73AC4EC1B5754DA540F4FCCF7CB58E8C |
+| emSign Root CA - G2 | 1E6577B9CF70D017CAE1BDA1351D4725A973C06D |
+| emSign Root Client Auth CA - G1 | EF00428C8BD55BF387DC3BD5599218EAE0954B07 |
+| emSign Root CS CA - G2 | 1E3897900AF0A482F1134ACDC4202364FE55553F |
+| emSign Root SMIME CA - G1 | AD4EB39A75B72A4EB1E3224FCD4053504D0D8EF6 |
+| emSign Root TLS CA - G1 | A670CBDE482554129CAD3E1C4B1372F669F75CAD |
+| emSign Root TSA CA - G2 | AECC6124A6CB7F7C1BC0D63623723E8A09CF587E |
+
+
+
 # October 26, 2026
 # Microsoft Response to eMudhra Certificate Authority Key Compromise
 
