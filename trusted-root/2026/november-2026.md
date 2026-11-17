@@ -1,6 +1,6 @@
 ---
 title: November 2026 Deployment Notice - Microsoft Trusted Root Program
-description: This document provides details about the changes made in October 2026 to the root store.
+description: This document provides details about the changes made in November 2026 to the root store.
 ms.date: 11/16/2026
 ms.service: security
 author: tahmad2
